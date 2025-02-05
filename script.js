@@ -9,7 +9,6 @@ function calculate(){
     let years = Number(yearsInp.value);
 
     const interest = (principal * 12*years * rate) / 100 * 100;
-    console.log(interest);
     const result = principal + interest;
 
     totalamnt.textContent = result.toLocaleString(undefined,{style : "currency", currency: "INR"});

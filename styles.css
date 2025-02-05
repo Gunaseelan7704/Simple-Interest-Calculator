@@ -32,7 +32,7 @@ input{
     margin-bottom: 18px;
 }
 button{
-    background-color: rgba(105, 223, 9, 0.775);
+    background-color: rgba(237, 117, 5, 0.775);
     color: white;
     font-size: 2em;
     border: none;
@@ -41,15 +41,15 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: green;
+    background-color: rgb(212, 169, 13);
 }
 button:active{
-    background-color: rgb(41, 180, 19);
+    background-color: rgb(253, 106, 15);
 }
 #total{
     font-size: 2em;
 }
 #total-amnt{
-    color: hsl(120,100%,35%);
+    color: hsl(27, 96%, 47%);
     font-weight: bold;
 }
